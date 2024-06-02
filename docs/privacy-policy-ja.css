@@ -23,27 +23,32 @@ header {
     align-items: center;
 }
 
+.title-div {
+    margin: auto;
+    display: flex;
+}
+
 .logo {
     height: 54px;
 }
 
-.x-logo-a {
-   margin-right: 5px;
-}
-
 .x-logo-img {
     height: 40px;
-    margin-top: 7px;
+    margin-top: 8px;
 }
 
 .title {
-    margin: auto;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     line-height: 1.35em;
     text-align: center;
     font-size: 40px;
+    color: rgb(var(--color_15));
 }
 
 .app-store-a {
+    margin-left: 12px;
     display: inline-block;
     overflow: hidden;
     border-radius: 13px;
